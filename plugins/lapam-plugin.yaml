@@ -1,0 +1,31 @@
+descriptorVersion: v4
+image: jangalian/authproxy:0.0.1-SNAPSHOT
+dbms: none
+#healthCheckPath: "/management/health"
+roles:
+  - "lapam-admin"
+#ingressPath: "/spid"
+permissions:
+    - clientId: realm-management
+      role: manage-users
+    - clientId: realm-management
+      role: view-users
+#environmentVariables:
+#    - name: SPID_CONFIG_ACTIVE
+#      value: "true"
+#    - name: KEYCLOACK_HOST
+#      valueFrom:
+#          secretKeyRef:
+#              name: ad14e819-sso-url
+#              key: url
+#    - name: KEYCLOACK_USERNAME
+#      valueFrom:
+#          secretKeyRef:
+#              name: ad14e819-sso-admin-username
+#              key: username
+#    - name: KEYCLOACK_PASSWORD
+#      valueFrom:
+#          secretKeyRef:
+#              name: ad14e819-sso-admin-password
+#              key: password
+
