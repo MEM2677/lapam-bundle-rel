@@ -1,0 +1,11 @@
+code: ent-lapam-metopack-MFE
+titles:
+  en: Entando Lapam Metopack
+  it: Entando Lapam Metopack
+group: free
+customUiPath: ent-lapam-metopack-widget.ftl
+configUi:
+  customElement: entando-lapam-metopack-config
+  resources:
+
+# entando_resource_injection_point
