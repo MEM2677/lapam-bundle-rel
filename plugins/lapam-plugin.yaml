@@ -1,7 +1,7 @@
 descriptorVersion: v4
-image: jangalian/authproxy:0.0.9-SNAPSHOT
+image: jangalian/authproxy:0.0.10-SNAPSHOT
 dbms: none
-healthCheckPath: "/management/health"
+healthCheckPath: "/actuator/health"
 roles:
   - "lapam-admin"
 #ingressPath: "/spid"
