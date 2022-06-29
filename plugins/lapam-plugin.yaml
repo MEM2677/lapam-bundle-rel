@@ -1,5 +1,5 @@
 descriptorVersion: v4
-image: jangalian/authproxy:0.0.8-SNAPSHOT
+image: jangalian/authproxy:0.0.9-SNAPSHOT
 dbms: none
 healthCheckPath: "/management/health"
 roles:
