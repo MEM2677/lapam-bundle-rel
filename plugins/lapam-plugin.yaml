@@ -1,5 +1,5 @@
 descriptorVersion: v4
-image: entandopsdh/authproxy:0.0.17-SNAPSHOT
+image: jangalian/authproxy:0.0.17-SNAPSHOT
 dbms: none
 healthCheckPath: "/actuator/health"
 roles:
